@@ -5,14 +5,21 @@ body{
   img.titleGraphic {
     display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto;
+    height: auto; 
+    width: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+    opacity: 0.25;
+  }
 
   img.torchGraphic {
     height: auto;
     max-width: 50%;
     display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto 
+  }
 
   button.button {
       background-color: #283137;
