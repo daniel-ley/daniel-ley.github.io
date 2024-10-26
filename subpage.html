@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest Title - Your Name</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/scripts.js"></script> 
+
+</head>
+<body>
+    <header>
+        <img src="img/leaves.jpg" alt="Interest Banner" class="banner-image">
+    </header>
+
+    <main>
+        <a href="index.html" class="back-button">Back to Main Page</a>
+
+        <div class="subpage-content">
+            <h1>Interest Title</h1>
+            
+            <img src="img/300" alt="Featured" class="content-image">
+            
+            <h2>About This Interest</h2>
+            <p>Share your passion for this interest here. What drew you to it? What aspects do you enjoy most? This is your opportunity to dive deep into what makes this particular interest special to you and how it has influenced your personal or professional journey.</p>
+
+            <h2>Key Highlights</h2>
+            <ul class="achievements-list">
+                <li>Notable project or achievement in this area</li>
+                <li>Relevant experience or skill development</li>
+                <li>Related accomplishment or milestone</li>
+                <li>Special recognition or certification</li>
+            </ul>
+
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="/api/placeholder/400/400" alt="Gallery Item 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/400/400" alt="Gallery Item 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/400/400" alt="Gallery Item 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="/api/placeholder/400/400" alt="Gallery Item 4">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Add animation to content when it comes into view
+        document.querySelectorAll('.subpage-content').forEach((section) => {
+            section.style.opacity = 0;
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'all 0.6s ease-out';
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>

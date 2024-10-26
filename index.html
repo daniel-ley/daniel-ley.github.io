@@ -1,44 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Daniel Ley</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="top-container">
-      <div class="container">
-        <img class="banner-wallpaper" src="images/Autumn_Leaves.jpeg" alt="wallpaper">
-        <div class="center">
-              <h1>I'm Daniel</h1>
-              <h2>Gamer, coder, ... Nerd!</h2>
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daniel Ley - Personal Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/scripts.js"></script> 
+    <link rel="icon" href="avatar.ico">
+</head>
+<body>
+    <header>
+        <img src="img/leaves.jpg" alt="Banner" class="banner-image">
+    </header>
+
+    <main>
+        <div class="profile-container">
+            <img src="img/avatar.jpg" alt="Profile" class="profile-image">
         </div>
-      </div>        
-    </div>
-     <div class="middle-container">
-      <div class="profile">
-        <img style="width: 20%; border-radius: 50%; border: 5px solid #191A19" src="images/profile_Avatar_2.jpeg" alt="Daniel">
-        <h2>Greetings!</h2>
-        <p class="about_text">Hello friends and welcome to my homepage.<br/> <br/> 
-          I'm Daniel Ley, Halfling Rogue trapped in the body of a 6'2", clumsy, computer guy.<br/>
-          I'm a Gamer (both plugged and unplugged) and hobbyist-programmer</p>
-          <p> Not much going on here now, but who knows... maybe in the future?</p>
-      </div>
+        
+        <h1 class="name">Daniel Ley</h1>
+        <p class="title">Technical Account Manager and Gamer</p>
 
-      <!-- hr -->
+        <section id="about">
+            <h2>About Me</h2>
+            
+            <p> I'm an experienced IT professional specialising in Technical Account Management, Business Intelligence, Analytics, and Client Advocacy.</p>
+            
+            <p>When not working I'm passionate about gaming - both plugged and unplugged. </p>
 
-    </div>
+            <p>So, I'm one of those, in the words of <em>The IT Crowd's Denholm Reynholm</em>, "Standard Nerds!"</p>
 
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/danielfley/">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/buried_by_books">Twitter</a>
-      <a class="footer-link" href="https://github.com/daniel-ley">GitHub</a>
-      <a class="footer-link" href="index.html">Website</a>
-      <p class="copyright">© 2023 Daniel Ley.</p>
-    </div>
-  </body>
+        </section>
+
+        <section id="interests">
+            <h2>Interests</h2>
+            <div class="interests-grid">
+                <a href="gaming.html" class="interest-item">Gaming</a>
+                <a href="technology.html" class="interest-item">Technology</a>
+                <a href="food.html" class="interest-item">Food</a>
+                <a href="art.html" class="interest-item">Art</a>
+            </div>
+        </section>
+
+        <section id="achievements">
+            <h2>Academic Achievements</h2>
+            <ul class="achievements-list">
+                <li>BSc (Hon) Computing and Information Technology</li>
+                <li>HND Business and Finance</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <div class="contact-links">
+                <a href="mailto:daniel.ley71@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/danielfley/">LinkedIn</a>
+                <a href="https://github.com/daniel-ley">GitHub</a>
+            </div>
+        </section>
+    </main>
+</body>
 </html>
