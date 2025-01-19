@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology - Daniel Ley</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/scripts.js"></script> 
+
+</head>
+<body>
+    <header>
+        <img src="img/leaves.jpg" alt="Interest Banner" class="banner-image">
+    </header>
+
+    <main>
+        <a href="index.html" class="back-button">Back to Main Page</a>
+
+        <div class="subpage-content">
+            <h1>Technology</h1>
+            
+            <!-- <img src="img/dice.jpeg" alt="Featured" class="content-image"> -->
+            
+            <h2>My Passion for Tech</h2>
+            <p>
+                From the moment I first saw lines of code transform into something useful and real, I've been captivated by technology's power to improve lives. There's an almost magical quality to watching a solution come together - whether it's automating away hours of repetitive work, helping someone visualise their data in a way that brings sudden clarity, or building tools that make complex tasks simple. The pure satisfaction of seeing code finally work exactly as intended, or tracking down that elusive bug that's been hiding in plain sight, never gets old.</p>
+            <p>
+                What excites me most is how technology keeps becoming more accessible. Where once coding felt like an arcane art, today we have amazing free tools like Python, supported by vibrant communities sharing knowledge openly. With AI assistants helping to explain concepts and suggest solutions, and open source projects providing building blocks for almost anything you can imagine, the barriers to creating useful software keep falling. It feels like we're entering a golden age where anyone with curiosity and determination can harness technology to solve problems and make a difference.</p>
+        </div>
+    </main>
+
+    <script>
+        // Add animation to content when it comes into view
+        document.querySelectorAll('.subpage-content').forEach((section) => {
+            section.style.opacity = 0;
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'all 0.6s ease-out';
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>

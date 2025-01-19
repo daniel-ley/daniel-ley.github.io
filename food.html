@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food - Daniel Ley</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/scripts.js"></script> 
+
+</head>
+<body>
+    <header>
+        <img src="img/leaves.jpg" alt="Interest Banner" class="banner-image">
+    </header>
+
+    <main>
+        <a href="index.html" class="back-button">Back to Main Page</a>
+
+        <div class="subpage-content">
+            <h1>Food</h1>
+            
+            <!-- <img src="img/dice.jpeg" alt="Featured" class="content-image"> -->
+            
+            <h2>My Passion for Food</h2>
+            <p>Whether it's a slow-cooked stew filling the house with promises, a perfectly charred homemade pizza, or exploring local resturants with friends, good food shared in good company is one of life's fundamental pleasures. I firmly believe that any meal improved by good conversation and company is worth every extra notch on the belt.</p>
+        </div>
+    </main>
+
+    <script>
+        // Add animation to content when it comes into view
+        document.querySelectorAll('.subpage-content').forEach((section) => {
+            section.style.opacity = 0;
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'all 0.6s ease-out';
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
